@@ -27,6 +27,11 @@ body {
   margin: 0;
 }
 
+.container {
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
 .logo {
   color: #2196f3;
   text-decoration: none;
@@ -163,6 +168,8 @@ body {
 .team {
   /* background-color: #f5f4fa; */
   background-color: teal;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -170,12 +177,14 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
 }
 .team-list-item-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .team-list-item-prof {
   font-size: 16px;
@@ -186,25 +195,37 @@ body {
 .team-list-item {
   list-style: none;
 }
+.team-list-item-content {
+  padding: 30px;
+}
 
 /* ====================== footer */
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
 .logo.logo_footer > .logo-select {
   color: #ffffff;
+}
+.logo.logo_footer {
+  margin-bottom: 28px;
+  display: block;
 }
 .contacts-adress {
   color: #ffffff;
   font-style: normal;
 }
 .contacts {
+  display: block;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  margin-top: 12px;
 }
 .contacts:hover,
 .contacts:focus {
