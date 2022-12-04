@@ -28,9 +28,9 @@ body {
 }
 
 .container {
-  /* padding-left: 215px; */
-  /* padding-right: 215px; */
-  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -38,6 +38,7 @@ body {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 .header-flex {
   display: flex;
@@ -128,19 +129,21 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
+  width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
 .hero {
   background-color: #2f303a;
   padding-top: 200px;
-  padding-left: 400px;
-  padding-right: 400px;
+
   padding-bottom: 200px;
 }
 .hero-button {
   background-color: #2196f3;
   font-family: "Roboto";
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
@@ -178,6 +181,7 @@ body {
 }
 .benefits-list-item-desc {
   color: #757575;
+  line-height: 1.71;
 }
 
 /* ========================  doing*/
@@ -238,6 +242,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   padding: 30px;
+  text-align: center;
 }
 
 /* ====================== footer */
@@ -322,6 +327,10 @@ body {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .example-list-item-title {
